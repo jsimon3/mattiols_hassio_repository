@@ -1,5 +1,5 @@
 ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM hassioaddons/base-armv7:8.0.6
 
 RUN mkdir /hassio_bticino_smarter
 
